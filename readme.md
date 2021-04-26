@@ -20,3 +20,5 @@ For generating info(Final Report) from CBMC report :
 1. open terminal in the folder FYP
 2. type the below command :
 	$ python3 FaultLocBasedOnConditionCoverage.py /home/neeraj/Desktop/FYP/CBMCReport/cprog1report.txt /home/neeraj/Desktop/FYP/C_Programs/cprog1.c /home/neeraj/Desktop/FYP/FinalCCreports/cprog1final.txt
+	
+To push files upstream : git push -u origin master
