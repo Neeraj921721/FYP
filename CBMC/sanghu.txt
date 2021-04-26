@@ -1,0 +1,170 @@
+CBMC version 5.11 (cbmc-5.11) 64-bit x86_64 linux
+Parsing problem10.c
+Converting
+Type-checking problem10
+Generating GOTO Program
+Adding CPROVER library (x86_64)
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+Running with 8 object bits, 56 offset bits (default)
+Starting Bounded Model Checking
+Unwinding loop main.0 iteration 1 file problem10.c line 1247 function main thread 0
+Unwinding loop main.0 iteration 2 file problem10.c line 1247 function main thread 0
+Unwinding loop main.0 iteration 3 file problem10.c line 1247 function main thread 0
+Unwinding loop main.0 iteration 4 file problem10.c line 1247 function main thread 0
+size of program expression: 6923 steps
+simple slicing removed 121 assignments
+Generated 321 VCC(s), 321 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.1 with simplifier
+13122 variables, 44822 clauses
+SAT checker: instance is SATISFIABLE
+Solving with MiniSAT 2.2.1 with simplifier
+13122 variables, 19994 clauses
+SAT checker: instance is SATISFIABLE
+Solving with MiniSAT 2.2.1 with simplifier
+13122 variables, 19804 clauses
+SAT checker: instance is SATISFIABLE
+Solving with MiniSAT 2.2.1 with simplifier
+13122 variables, 19804 clauses
+SAT checker: instance is SATISFIABLE
+Solving with MiniSAT 2.2.1 with simplifier
+13122 variables, 14374 clauses
+SAT checker: instance is SATISFIABLE
+Solving with MiniSAT 2.2.1 with simplifier
+13122 variables, 13777 clauses
+SAT checker: instance is SATISFIABLE
+Solving with MiniSAT 2.2.1 with simplifier
+13122 variables, 13777 clauses
+SAT checker: instance is SATISFIABLE
+Solving with MiniSAT 2.2.1 with simplifier
+13122 variables, 13777 clauses
+SAT checker: instance is SATISFIABLE
+Solving with MiniSAT 2.2.1 with simplifier
+13122 variables, 13744 clauses
+SAT checker: instance is SATISFIABLE
+Solving with MiniSAT 2.2.1 with simplifier
+13122 variables, 13478 clauses
+SAT checker: instance is SATISFIABLE
+Solving with MiniSAT 2.2.1 with simplifier
+13122 variables, 13478 clauses
+SAT checker: instance is SATISFIABLE
+Solving with MiniSAT 2.2.1 with simplifier
+13122 variables, 13478 clauses
+SAT checker: instance is SATISFIABLE
+Solving with MiniSAT 2.2.1 with simplifier
+13122 variables, 11849 clauses
+SAT checker: instance is SATISFIABLE
+Solving with MiniSAT 2.2.1 with simplifier
+13122 variables, 9787 clauses
+SAT checker: instance is UNSATISFIABLE
+Runtime decision procedure: 0.136289s
+
+** Results:
+problem10.c function errorCheck
+[errorCheck.assertion.1] line 207 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.2] line 211 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.3] line 215 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.4] line 219 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.5] line 223 ASSERTION VIOLATION: FAILURE
+[errorCheck.assertion.6] line 227 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.7] line 231 ASSERTION VIOLATION: FAILURE
+[errorCheck.assertion.8] line 235 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.9] line 239 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.10] line 243 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.11] line 247 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.12] line 251 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.13] line 255 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.14] line 259 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.15] line 263 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.16] line 267 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.17] line 271 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.18] line 275 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.19] line 279 ASSERTION VIOLATION: FAILURE
+[errorCheck.assertion.20] line 283 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.21] line 287 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.22] line 291 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.23] line 295 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.24] line 299 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.25] line 303 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.26] line 307 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.27] line 311 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.28] line 315 ASSERTION VIOLATION: FAILURE
+[errorCheck.assertion.29] line 319 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.30] line 323 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.31] line 327 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.32] line 331 ASSERTION VIOLATION: FAILURE
+[errorCheck.assertion.33] line 335 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.34] line 339 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.35] line 343 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.36] line 347 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.37] line 351 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.38] line 355 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.39] line 359 ASSERTION VIOLATION: FAILURE
+[errorCheck.assertion.40] line 363 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.41] line 367 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.42] line 371 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.43] line 375 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.44] line 379 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.45] line 383 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.46] line 387 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.47] line 391 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.48] line 395 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.49] line 399 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.50] line 403 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.51] line 407 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.52] line 411 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.53] line 415 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.54] line 419 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.55] line 423 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.56] line 427 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.57] line 431 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.58] line 435 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.59] line 439 ASSERTION VIOLATION: FAILURE
+[errorCheck.assertion.60] line 443 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.61] line 447 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.62] line 451 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.63] line 455 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.64] line 459 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.65] line 463 ASSERTION VIOLATION: FAILURE
+[errorCheck.assertion.66] line 467 ASSERTION VIOLATION: FAILURE
+[errorCheck.assertion.67] line 471 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.68] line 475 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.69] line 479 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.70] line 483 ASSERTION VIOLATION: FAILURE
+[errorCheck.assertion.71] line 487 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.72] line 491 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.73] line 495 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.74] line 499 ASSERTION VIOLATION: FAILURE
+[errorCheck.assertion.75] line 503 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.76] line 507 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.77] line 511 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.78] line 515 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.79] line 519 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.80] line 523 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.81] line 527 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.82] line 531 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.83] line 535 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.84] line 539 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.85] line 543 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.86] line 547 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.87] line 551 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.88] line 555 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.89] line 559 ASSERTION VIOLATION: FAILURE
+[errorCheck.assertion.90] line 563 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.91] line 567 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.92] line 571 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.93] line 575 ASSERTION VIOLATION: FAILURE
+[errorCheck.assertion.94] line 579 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.95] line 583 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.96] line 587 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.97] line 591 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.98] line 595 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.99] line 599 ASSERTION VIOLATION: SUCCESS
+[errorCheck.assertion.100] line 603 ASSERTION VIOLATION: SUCCESS
+
+** 13 of 100 failed (14 iterations)
+VERIFICATION FAILED
