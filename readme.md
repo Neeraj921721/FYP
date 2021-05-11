@@ -1,6 +1,3 @@
-
-                                                     CRG: CONDITION RANK GENERATOR FOR PROGRAM REPAIR
-=======
 <h1>CRG: CONDITION RANK GENERATOR FOR PROGRAM REPAIR</h1>
 <h3>Instructions To Run The Program In Local Machine</h3>
 <ol>
