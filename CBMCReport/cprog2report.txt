@@ -24,7 +24,7 @@ Covered function checkYear condition `year % 400 == 0' false
 Solving with MiniSAT 2.2.1 with simplifier
 48 variables, 0 clauses
 SAT checker inconsistent: instance is UNSATISFIABLE
-Runtime decision procedure: 0.000485821s
+Runtime decision procedure: 0.000428934s
 
 ** coverage results:
 [main.coverage.1] file /home/neeraj/Desktop/FYP/C_Programs/cprog2.c line 30 function main condition `return_value_checkYear != FALSE' false: SATISFIED

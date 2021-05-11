@@ -1,39 +1,39 @@
-/*
- * Program used in the experimental evaluation of the following paper.
- * 2008ESOP - Chawdhary,Cook,Gulwani,Sagiv,Yang - Ranking Abstractions
- *
- * Date: 2014
- * Author: Caterina Urban
- */
-
-typedef enum {false, true} bool;
-
-extern int __VERIFIER_nondet_int(void);
-
-int main() {
-    int i, j, k, an, bn, tk;
-	i = __VERIFIER_nondet_int();
-	j = __VERIFIER_nondet_int();
-	k = __VERIFIER_nondet_int();
-	an = __VERIFIER_nondet_int();
-	bn = __VERIFIER_nondet_int();
-	tk = __VERIFIER_nondet_int();
-	while (((an >= i && bn >= j) || (an >= i && bn <= j) || (an <= i && bn >= j)) && k >= tk + 1) {
-		if (an >= i && bn >= j) {
-			if (__VERIFIER_nondet_int() != 0) {
-				j = j + k;
-				tk = k;
-				k = __VERIFIER_nondet_int();
-			} else {
-				i = i + 1;
-			}
-		} else {if (an >= i && bn <= j) {
-			i = i + 1;
-		} else {if (an <= i && bn >= j) {
-			j = j + k;
-			tk = k;
-			k = __VERIFIER_nondet_int();
-		}}}
-	}
-	return 0;
+#include<stdio.h>
+int main()
+{
+     int a1,a2,a3;
+     printf("Enter Three Angles of Triangle");
+     printf("\n-------------------------------\n");
+     printf("Enter First Angle  : ");
+     scanf("%d", &a1);
+     printf("\nEnter Second Angle : ");
+     scanf("%d",&a2);
+     printf("\nEnter Third Angle  : ");
+     scanf("%d",&a3);
+     printf("--------------------------------\n");
+     if(a1+a2+a3==180) // condition to check triangle formed or not
+     {
+          printf("\nTriangle Formed\n");
+          if(a1==60 && a2==60 && a3==60)  //
+          {
+               printf("\nEquilateral Triangle\n");
+          }
+          if(a1==a2 || a1==a3 || a2==a3)  
+          {
+               printf("\nIsosceles Triangle\n");
+          }
+          if(a1==90 || a2==90 || a3==90)
+          {
+               printf("\nRight Angle Triangle\n"); //
+          }
+          if(a1!=a2 || a2 != a3 || a3!= a1)  
+          {
+               printf("\nScalene Triangle");
+          }
+     }
+     else
+     {
+          printf("\nTriangle NOT formed");
+     }
+     return 0;
 }

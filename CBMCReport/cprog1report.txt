@@ -30,7 +30,7 @@ Covered function main condition `x > 10' false
 Solving with MiniSAT 2.2.1 with simplifier
 136 variables, 0 clauses
 SAT checker inconsistent: instance is UNSATISFIABLE
-Runtime decision procedure: 0.00049164s
+Runtime decision procedure: 0.000506771s
 
 ** coverage results:
 [main.coverage.1] file /home/neeraj/Desktop/FYP/C_Programs/cprog1.c line 6 function main condition `y < 10' false: FAILED
