@@ -8,7 +8,6 @@
 
 <h4>Run The Below Command On the Terminal To Generate The CBMC Condition Coverage Report</h4>
 <p><code><b>./cbmc --cover condition your-cprog-path</b></code>
->>>>>>> 7738b23ecaeb6e2e2efd443bcee250f248ac89e9
 
 <p>
 	e.g.: if the c program is inside desktop folder then</p> 
