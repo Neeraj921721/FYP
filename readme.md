@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
                                                      CRG: CONDITION RANK GENERATOR FOR PROGRAM REPAIR
 =======
 <h1>CRG: CONDITION RANK GENERATOR FOR PROGRAM REPAIR</h1>
